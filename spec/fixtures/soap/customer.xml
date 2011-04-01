@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <soap:Body>
+    <GetCustomerDetailResponse xmlns="http://mysoapservice.com/">
+      <GetCustomerDetailResult>
+        <Customers>
+          <Customer>
+            <CustomerID>124000</CustomerID>
+            <Name>Bogus User</Name>
+            <EmailAddress>user@example.com</EmailAddress>
+          </Customer>
+        </Customers>
+      </GetCustomerDetailResult>
+    </GetCustomerDetailResponse>
+  </soap:Body>
+</soap:Envelope>

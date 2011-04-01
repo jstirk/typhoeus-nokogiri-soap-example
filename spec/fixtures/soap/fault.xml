@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <soap:Body>
+    <soap:Fault>
+      <soap:Code>
+        <soap:Value>soap:Sender</soap:Value>
+      </soap:Code>
+      <soap:Reason>
+        <soap:Text xml:lang="en">System.Web.Services.Protocols.SoapException: Conversion from type 'DBNull' to type 'Date' is not valid.
+   at Utilities.ThrowServiceException(String Message)
+   at WebstoreService.GetCustomerDetail(Int32 ProductID, String PLU, String ShortDescription, Int32 ProductTypeID, Int32 BrandID, Int32 SupplierID)</soap:Text>
+      </soap:Reason>
+      <soap:Node>http://soap.example.com/Service.asmx</soap:Node>
+      <detail>
+        <ExceptionMessage>Conversion from type 'DBNull' to type 'Date' is not valid.</ExceptionMessage>
+      </detail>
+    </soap:Fault>
+  </soap:Body>
+</soap:Envelope>
