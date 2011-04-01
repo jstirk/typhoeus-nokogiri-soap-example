@@ -1,6 +1,3 @@
-require 'nokogiri'
-require 'typhoeus'
-
 module MySoapService
   NAMESPACE    = "http://mysoapservice.com/"
   CLIENT_TOKEN = "ABCDEABCDE"
